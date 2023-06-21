@@ -1,0 +1,23 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "prettier/react"
+    ],
+    "plugins": ["prettier", "react"],
+    "rules": {
+      // Add custom ESLint rules if needed
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  
